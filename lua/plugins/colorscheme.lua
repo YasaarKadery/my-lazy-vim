@@ -1,9 +1,11 @@
 return {
-  { "Mofiqul/vscode.nvim", lazy = false },
+  { "rebelot/kanagawa.nvim", lazy = false },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "kanagawa",
+      transparent = true,
+      theme = "wave",
     },
   },
 }
